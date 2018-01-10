@@ -57,6 +57,8 @@ import { AppState } from './app.service';
         </a>
       </div>
     </footer>
+
+    <global-nav></global-nav>
   `
 })
 export class AppComponent implements OnInit {

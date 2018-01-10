@@ -1,7 +1,7 @@
 {
-  "name": "angular-starter",
+  "name": "angular-component-library",
   "version": "7.0.0",
-  "description": "An Angular Webpack Starter kit featuring Angular (Router, Http, Forms, Services, Tests, E2E, Coverage), Karma, Protractor, Jasmine, Istanbul, TypeScript, and Webpack by AngularClass",
+  "description": "An Angular Webpack Component library featuring Angular (Router, Http, Forms, Services, Tests, E2E, Coverage), Karma, Protractor, Jasmine, Istanbul, TypeScript, and Webpack by AngularClass",
   "keywords": [
     "angular",
     "angular2",
@@ -12,9 +12,9 @@
     "tipe",
     "tipe.io"
   ],
-  "author": "Patrick Stapleton <patrick@tipe.io>",
-  "homepage": "https://github.com/gdi2290/angular-starter",
-  "license": "MIT",
+  "author": "Robert Bachman credit --> Patrick Stapleton <patrick@tipe.io>",
+  "homepage": "",
+  "license": "",
   "scripts": {
     "build:aot:prod": "npm run clean:dist && npm run clean:aot && cross-env BUILD_AOT=1 npm run webpack -- --config config/webpack.prod.js  --progress --profile --bail",
     "build:aot": "npm run build:aot:prod",
@@ -167,10 +167,10 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/gdi2290/angular-starter.git"
+    "url": ""
   },
   "bugs": {
-    "url": "https://github.com/gdi2290/angular-starter/issues"
+    "url": ""
   },
   "engines": {
     "node": ">= 4.2.1",

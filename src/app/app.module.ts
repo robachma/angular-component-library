@@ -20,6 +20,8 @@ import { NoContentComponent } from './no-content';
 import { XLargeDirective } from './home/x-large';
 import { DevModuleModule } from './+dev-module';
 
+import { ComponentModule } from './components';
+
 import '../styles/styles.scss';
 import '../styles/headings.css';
 
@@ -55,6 +57,7 @@ type StoreType = {
     BrowserAnimationsModule,
     FormsModule,
     HttpClientModule,
+    ComponentModule,
     RouterModule.forRoot(ROUTES, {
       useHash: Boolean(history.pushState) === false,
       preloadingStrategy: PreloadAllModules

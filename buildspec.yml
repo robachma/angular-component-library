@@ -3,10 +3,10 @@ version: 0.2
 phases:
   build:
     commands:
-      - npm run build:dev
+      - npm build package.json
   post_build:
     commands:
       - ls
 artifacts:
   files:
-    - '*'
+    - '**/*'

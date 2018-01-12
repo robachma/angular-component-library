@@ -1,0 +1,10 @@
+version: 0.0.1
+
+phases:
+  install:
+    commands:
+      - npm run build:dev
+  artifacts:
+    files:
+      - '**/*'
+    discard-paths: no

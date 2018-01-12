@@ -3,10 +3,11 @@ version: 0.2
 phases:
   build:
     commands:
+      - npm install
       - npm build
   post_build:
     commands:
       - ls
 artifacts:
   files:
-    - '/src/*'
+    - 'src/*'

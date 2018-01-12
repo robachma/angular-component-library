@@ -4,6 +4,9 @@ phases:
   build:
     commands:
       - npm build
+  post_build:
+    commands:
+      - ls
 artifacts:
   files:
-    - tsconfig.json
+    - *

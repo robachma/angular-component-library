@@ -1,0 +1,12 @@
+version: 0.0
+os: linux
+files:
+  - source: .
+    destination: /home/ec2-user/github
+hooks:
+  ApplicationStop:
+    - location: deployment/application-stop.sh
+      timeout: 30
+  ApplicationStart:
+    - location: deployment/application-start.sh
+      timeout: 30
